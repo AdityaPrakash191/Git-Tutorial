@@ -5,7 +5,7 @@
 
 3. `touch` -> this will create a new file, just give the file name with extension.
 
-4. `rm -rf` -> to delete a file. -r will delete all the internal files recursively.
+4. `rm -rf` -> to delete a file. -r will delete all the internal files recursively..
 
 5. `working area` -> There can be a bunch of files that are not currently handled by git. It means that changes done
    or to be done in those files are not managed by git yet. A file which is in working area is considered
