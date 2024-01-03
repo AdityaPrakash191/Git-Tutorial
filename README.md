@@ -28,7 +28,7 @@
 
 11. `git commit` -> registers staging changes to a commit..
 
-12.`git log` -> list downs all the commits of the repository. If you want to wxit out of git log prompt press `q`.
+12. `git log` -> list downs all the commits of the repository. If you want to wxit out of git log prompt press `q`.
 
 13. `git restore <file>` -> it removes all files changes from the staging area to be committed. This can be useful, if we did
     some dirty piece of code and now no more want it. Instead of deleting every change line by line, we can restore
@@ -43,14 +43,13 @@
 
 16. `git diff commit1 commit2` -> gives the difference of all file changes between two commits.
 
-17. `git commit -m "<message>" -> directly commits your request with message.
+17. `git commit -m` "<message>" -> directly commits your request with message.
 
 18. `git remote` -> list down all the remote connection names.
 
 19. Remote connection -> It help you to link two git repositories for uploading and downloading changes from each otherwise.
 
-20.`git remote add <name of remote > <link of the remote>` : this command helps us to add a new link to the remote
-repo and give a name to it.
+20. `git remote add <name of remote > < link of the remote >` : this command helps us to add a new link to the remote repo and give a name to it.
 
 21. `git remote rm <name of remote>` -> this command deletes a remote connection.
 
@@ -77,3 +76,7 @@ Note: The name of the remote connection is always used to establish communicatio
 -
 
 merge confilts occur when multifle people try to make changes to the same file, and then collaborate.
+
+26. Everything we store in git is stored in key value pair.
+    `key` : is SHA1 hashcode. created from the content of the data.
+    `value` : binary large data object, BLOB.
