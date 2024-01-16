@@ -94,3 +94,11 @@ merge confilts occur when multifle people try to make changes to the same file, 
 32. `How to add a particular file to stash if having multiple files`.
     for working area :- git stash --include-untracked --<filename>
     for files in staging area :- git stash --<filename>
+
+33. `HEAD` : it tells you which branch you are working on and what the current commit is.
+
+34. `git log --graph` : to see the graph structure of the commits.
+
+35. `git checkout -b <new Branch Name>` : it will create a new branch , which head would be pointing and further commits would be added here, until u are going to make any change.
+
+36. `How to switch between differnet branches ? ` :- by shifting the head pointer using command `git checkout <branch name>`
