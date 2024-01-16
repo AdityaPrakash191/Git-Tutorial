@@ -80,3 +80,17 @@ merge confilts occur when multifle people try to make changes to the same file, 
 26. Everything we store in git is stored in key value pair.
     `key` : is SHA1 hashcode. created from the content of the data.
     `value` : binary large data object, BLOB.
+
+27. `git stash` : saves changes from staging area, which is not going to a part of next commit.
+
+28. `git stash list` : lists down all the stash files.
+
+29. `git stash apply ` : retrives the last stash code to the staging area.
+
+30. `git stash show <stash@{number}>` : will show the last stash file.
+
+31. `git stash --include-untracked` : it will stash changes from the wroking area but here we need to mention explicitly.
+
+32. `How to add a particular file to stash if having multiple files`.
+    for working area :- git stash --include-untracked --<filename>
+    for files in staging area :- git stash --<filename>
